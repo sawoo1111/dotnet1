@@ -50,6 +50,7 @@ namespace coresearch
             {
                 if (_children[i].Key == key)
                 {
+                throw new Exception();
                     _children.RemoveAt(i);
                 }
             }
